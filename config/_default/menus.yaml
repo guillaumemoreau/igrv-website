@@ -73,6 +73,26 @@ main:
   - name: Actions et journées
     url: actions
     weight: 70
-  - name: Club  industriel
+  - identifier: indus
+    name: Club  industriel
     url: club-industriel
     weight: 70
+  - parent: indus
+    name: Introduction
+    url: club-industriel/club 
+    weight: 51
+  - parent: indus
+    name: Vos avantages 
+    url: club-industriel/avantages 
+    weight: 52
+  - parent: indus
+    name: Déjà membres 
+    url: club-industriel/membres 
+    weight: 53
+  - parent: indus
+    name: Adhérer 
+    url: club-industriel/adherer
+
+    
+
+
